@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asteroid Drift</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <div class="hud">
+        <div>
+          <span class="label">Score</span>
+          <span id="score">0</span>
+        </div>
+        <div>
+          <span class="label">Lives</span>
+          <span id="lives">3</span>
+        </div>
+        <div>
+          <span class="label">Level</span>
+          <span id="level">1</span>
+        </div>
+      </div>
+
+      <canvas id="gameCanvas" width="960" height="600" aria-label="Asteroid game canvas"></canvas>
+
+      <div class="controls">
+        <span>W / ↑ thrust</span>
+        <span>A / D or ← / → turn</span>
+        <span>Space shoot</span>
+        <span>Enter restart</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
